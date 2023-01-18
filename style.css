@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(204, 43%, 93%);
+}
+
+.board{
+    width: 45%;
+    height: 540px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px hsl(218, 22%, 67%);;
+    margin: 50px auto 16px auto;
+    font-family: "Karla";
+    overflow: hidden;
+    background-color: #ffff;
+ 
+}
+
+.upside{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 36px;
+ 
+}
+
+.titleUpside{
+    width: 100%;
+    font-weight: 700;
+    font-size: 20px;
+    color: hsl(179, 62%, 43%) ;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.subtitleUpside{
+    width: 100%;
+    font-weight: 700;
+    font-size: 18px;
+    color: hsl(71, 73%, 54%) ;
+    margin-bottom: 16px;
+
+}
+
+.paragfUpside{
+    width: 100%;
+    font-weight: 400;
+    font-size: 16px;
+    color: hsl(218, 22%, 67%);
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.bottomside{
+    width: 100%;
+    height: 50%;;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #ffff;  
+}
+
+.btn{
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.btn:hover{
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+}
+
+.left{
+    width: 50%;
+    background-color: hsl(179, 62%, 43%);
+    display: flex;
+    flex-direction: column; 
+    padding: 36px;
+    row-gap: 16px;
+}
+
+.titleBottomside{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.price{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.spanprice{
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(204, 43%, 93%);
+}
+
+.infoPrice{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+button{
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+    width: 90%;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(71, 73%, 54%) ;
+    color: hsl(228, 26%, 96%);
+    border-radius: 8px;
+    margin-top: 16px;
+}
+
+.right{
+    width: 50%;
+    background-color: hsla(179, 62%, 43%, 0.856);
+    padding: 36px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.titleBottomside{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.paragfBottomside{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    font-weight: 400;
+    color: hsl(204, 43%, 93%);
+    row-gap: 4px;
+}
+
+footer{ 
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 8px;
+    font-size: 14px; 
+    text-align: center;
+    font-family: "Karla"; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+
+
+
+
+
